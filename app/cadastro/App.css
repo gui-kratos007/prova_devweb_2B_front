@@ -1,0 +1,33 @@
+/* Cores ajustadas para temas claros e escuros */
+body, html {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color, #f4f4f9);
+  color: var(--text-color, #333);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Configuração da classe de formulário */
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Botão de envio */
+.submit-button {
+  padding: 10px;
+  background-color: #5a67d8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #4c51bf;
+}
